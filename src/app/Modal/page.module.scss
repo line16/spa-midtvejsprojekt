@@ -1,0 +1,62 @@
+.modal_header {
+  position: fixed;
+  width: 550px;
+  height: 400px;
+  left: 32%;
+  top: 20%;
+  background-color: white;
+  border-radius: 10px;
+  font-family: quicksand;
+  padding: 10px;
+  align-items: center;
+  box-shadow: #666 1px 1px 10px;
+  border-radius: 10px;
+  text-align: center;
+
+  input {
+    width: 350px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 3px;
+  }
+
+  .messageInput{
+    height: 150px;
+  }
+  .submitInput{
+    padding: 5px 15px;
+    margin-left: 265px ;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+}
+
+.bookAtime {
+  background-color: white;
+  height: 45px;
+  width: 120px;
+  float: right;
+  margin: 20px 120px 0px 0px;
+  object-fit: cover;
+  border-radius: 25px;
+  font-family: quicksand;
+
+  p {
+    font-size: 14px;
+    padding: 13px 20px;
+  }
+}
+.bookAtime:hover {
+  background-color: #29354d;
+  cursor: pointer;
+  color: white;
+}
+
+.modal_title{
+    color: #666;
+    font-size: 20px;
+    padding-top: 10px;
+}

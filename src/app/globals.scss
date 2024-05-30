@@ -1,0 +1,73 @@
+//farver
+  // #D76326 - orange
+  // #29354D - lysere blå
+  // #18243A mørk blå
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Shadows+Into+Light&display=swap');
+
+html,
+body {
+  max-width: 100vw;
+  background-color: lightblue;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #18243A ;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.Logo{
+  width: 100px;
+  height: 60px;
+  float: left;
+  margin: 20px 0px 0px 120px;
+  object-fit: cover;
+}
+.NavDivs{
+  display: block;
+  position: fixed;
+  text-align: center;
+  border: solid white 2px;
+  border-radius: 35px;
+  margin-top: 20px;
+  font-size: 18px;
+  left: 0;
+  right: 0;
+  margin: 1rem auto;
+  width: 400px;
+
+  div{
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 15px;
+  }
+}
+.NavDivs:hover{
+  cursor: pointer;
+}
+
+.bookAtime{
+  background-color: white;
+  height: 45px;
+  width: 120px;
+  float: right;
+  margin: 20px 120px 0px 0px;
+  object-fit: cover;
+  border-radius: 25px;
+
+  p{
+    font-size: 14px;
+    padding: 13px 20px;
+  }
+}
+.bookAtime:hover{
+  background-color: #29354D;
+  cursor: pointer;
+  color: white;
+}

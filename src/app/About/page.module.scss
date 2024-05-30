@@ -1,0 +1,37 @@
+.MainBG{
+  background-image: url(../../../public/backgroundImages/front.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #18243A;
+  font-family: quicksand;
+}
+
+
+.flexBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: left;
+  text-align: left;
+  padding-top: 300px;
+  color: white;
+
+  h1 {
+    font-size: 85px;
+    width: 900px;
+    font-weight: 700;
+  }
+  p{
+    width: 800px;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+}
+
+.orange{
+  color: #D76326;
+}

@@ -1,0 +1,17 @@
+{
+    "contact":[
+    {
+      "name":"Iben Hildelof",
+      "text": "Contrary tot popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClinktock, a latin professor at Hampden-sydney College in Virgina,"
+    },
+    {
+      "name":"Danny Marthen",
+      "text": "Contrary tot popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClinktock, a latin professor at Hampden-sydney College in Virgina,"
+    },
+    {
+        "name":"Owen Spectrac",
+        "text": "Contrary tot popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClinktock, a latin professor at Hampden-sydney College in Virgina,"
+      }
+    
+    ]
+}
